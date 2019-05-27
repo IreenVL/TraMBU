@@ -24,11 +24,13 @@ a {
 }
 
 .header {
-    background-image: linear-gradient(0deg, #f6d4e6, #d73a61);
+
+    background-image: linear-gradient(0deg, #7e110d, #5f1914);
     padding: 20px 0 35px 0;
     margin-bottom: 3px;
-    border-bottom: 2px solid #fe007e;
+    border-bottom: 2px solid #3e0000;
     color: #fff;
+
 }
 
 .hidden {
@@ -48,7 +50,7 @@ a {
 }
 
 .divider {
-  color: #fe007e;
+  color: #f90909;
 }
 
 .socialNetwork {
@@ -110,11 +112,13 @@ a {
 }
 
 .filter-header {
+
     color: #bababa;
     font-weight: bold;
     font-size: small;
-    border-left: 2px solid #fe007e;
+    border-left: 2px solid #f90909;
     padding-left: 5px;
+
 }
 
 .container-wrapper {
@@ -155,24 +159,28 @@ a {
 }
 
 .activity {
+
     margin-right: 6px;
     margin-bottom: 12px;
-    background-image: linear-gradient(180deg, #f0f0f0, #f6f6f68f);
+    background-image: linear-gradient(180deg, #e4e0e0, #eceaea99);
     border-radius: 7px;
     width: 100%;
     font-size: smaller !important;
-    box-shadow: 3px 3px 10px #f3e2f5d9;
+    box-shadow: 3px 3px 10px #5f1914b3;
+
 }
 
 .activity-header {
+
     width: 100%;
-    background-image: linear-gradient(180deg,#f98ca7,#f5b1d5);
+    background-image: linear-gradient(180deg,#7e110d, #5f1914);
     padding: 0;
     margin-bottom: 0px;
-    border-bottom: 3px solid rgba(209, 133, 189, 0.64);
+    border-bottom: 3px solid rgba(47, 3, 3, 0.68);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: #fff;
+
 }
 
 .activity-content {
@@ -197,12 +205,12 @@ a {
 
 
 .done {
-    color: #fe007e;
-    border: 2px solid #4BBF73;
+    color: #0c741c;
+    border: 2px solid #0c741c;
     font-weight: bold;
     font-size: smaller !important;
     position: relative;
-    background: linear-gradient(180deg, #f0f0f0, #f2c3efe6);
+    background: linear-gradient(180deg, #f0f0f0, #958d8d);
     padding: 6px 12px !important;
     line-height: 1.42857143;
 }
@@ -210,8 +218,8 @@ a {
 .done:hover {
   color: #fff;
   font-weight: bold;
-  background: #fe007e 50% 50% repeat-x;
-  border: 2px solid #fff;
+  background: #8f2a26 50% 50% repeat-x;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
@@ -219,62 +227,67 @@ a {
 
 
 .todo {
-    border: 2px solid #fe007e;
-    color: #fe007e87;
+
+    border: 2px solid #3e0000;
+    color: #3e0000;
     font-weight: bold;
-    background: linear-gradient(180deg, #f0f0f0, #f2c3efe6);
+    background: linear-gradient(180deg, #f0f0f0, #958d8d);
     position: relative;
     padding: 6px 12px !important;
     font-size: smaller !important;
     line-height: 1.42857143;
+
 }
 
 .todo:hover {
   color: #fff;
-  background: #fe007e 50% 50% repeat-x;
+  background: #8f2a26 50% 50% repeat-x;
   font-weight: bold;
-  border: 2px solid #fff;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
 }
 
 .edit {
-    border: 2px solid #fe007e;
-    color: #fe007e80;
-    background: linear-gradient(180deg, #f0f0f0, #f2c3efe6);
+
+    border: 2px solid #3e0000;
+    color: #3e0000;
+    background: linear-gradient(180deg, #f0f0f0, #958d8d);
     position: relative;
     padding: 6px 12px !important;
     font-size: x-small !important;
     line-height: 1.42857143;
+
 }
 
 .edit:hover {
   color: #fff;
-  background: #fe007e 50% 50% repeat-x;
-  border: 2px solid #fff;
+  background: #8f2a26 50% 50% repeat-x;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: x-small !important;
   line-height: 1.42857143;
 }
-
 .new {
-    border: 2px solid #fe007e;
-    color: #232e3c;
-    background: linear-gradient(180deg, #f0f0f0, #dadadb);
+
+    border: 2px solid #3e0000;
+    color: #3e0000;
+    background: linear-gradient(180deg, #f0f0f0, #958d8d);
     position: relative;
     margin-bottom: 12px;
     padding: 6px 12px !important;
     font-size: x-small !important;
     line-height: 1.42857143;
     float: right;
+
 }
 
 .new:hover {
   color: #fff;
-  background: #fe007e 50% 50% repeat-x;
+  background: #8f2a26 50% 50% repeat-x;
   margin-bottom: 12px;
-  border: 2px solid #f5b1d5;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: x-small !important;
   line-height: 1.42857143;
@@ -283,21 +296,23 @@ a {
 
 
 .delete {
-    border: 2px solid #fe007e;
-    color: #fbf6f8;
+
+    border: 2px solid #7e110d;
+    color: #fff;
     font-weight: bold;
-    background: linear-gradient(180deg, #fe007e,#fe007e);
+    background: linear-gradient(180deg, #fe0000,#ab0404);
     position: relative;
     padding: 6px 12px !important;
     font-size: smaller !important;
     line-height: 1.42857143;
+
 }
 
 .delete:hover {
-  color: #fe007e;
-  background: #fff 50% 50% repeat-x;
+  color: #fff;
+  background: #8f2a26 50% 50% repeat-x;
   font-weight: bold;
-  border: 2px solid #fe007e;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
@@ -305,19 +320,19 @@ a {
 
 
 .tag {
-    color: #fe007e;
-    background-color: #fff;
-    border: 2px solid #fe007e;
-    padding: 6px 12px !important;
-    font-size: smaller !important;
-    line-height: 1.42857143;
-    margin-bottom: 4px;
+  color: #3e0000;
+  background-color: #e4e0e0;
+  border: 2px solid #3e0000;
+  padding: 6px 12px !important;
+  font-size: smaller !important;
+  line-height: 1.42857143;
+  margin-bottom: 4px;
 }
 
 .tag:hover {
   color: #fff;
-  background: #fe007e 50% 50% repeat-x;
-  border: 2px solid #f5b1d5;
+  background: #8f2a26 50% 50% repeat-x;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
@@ -325,19 +340,19 @@ a {
 }
 
 .project {
-    color: #fff;
-    background: #fe007e 50% 50% repeat-x;
-    border: 2px solid #ffffffb8;
-    padding: 6px 12px !important;
-    font-size: smaller !important;
-    line-height: 1.42857143;
-    margin-bottom: 4px;
+  color: #fff;
+  background-color: #3e0000;
+  border: 2px solid #7e110d;
+  padding: 6px 12px !important;
+  font-size: smaller !important;
+  line-height: 1.42857143;
+  margin-bottom: 4px;
 }
 
 .project:hover {
-  color: #fe007e;
-  background: #fff 50% 50% repeat-x;
-  border: 2px solid #fe007e;
+  color: #3e0000;
+  background-color: #8f2a26;
+  border: 2px solid #3e0000;
   padding: 6px 12px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
@@ -345,9 +360,10 @@ a {
 }
 
 .filter {
-    border: 2px solid #e088b5;
-    color: #fe007e;
-    background: linear-gradient(180deg, #fff, #fff);
+
+    border: 2px solid #3e000080;
+    color: #3e0000;
+    background: linear-gradient(180deg, #f0f0f0, #ecd8d8);
     position: relative;
     margin-bottom: 6px;
     margin-top: 6px;
@@ -355,14 +371,15 @@ a {
     font-size: x-small !important;
     line-height: 1.42857143;
     min-width: 145px;
+
 }
 
 .filter:hover {
   color: #fff;
-  background: #fe007e 50% 50% repeat-x;
+  background: #8f2a26 50% 50% repeat-x;
   margin-bottom: 6px;
   margin-top: 6px;
-  border: 2px solid #f5b1d5;
+  border: 2px solid #f0f0f0;
   padding: 5px 1px !important;
   font-size: x-small !important;
   line-height: 1.42857143;
@@ -377,9 +394,9 @@ a {
 }
 
 .active-filter {
-  border: 2px solid #e088b5;
-  color: #fe007e;
-  background: linear-gradient(180deg, #fff, #fff);
+  color: #3e0000;
+  background: #f0f0f0 50% 50% repeat-x;
+  border: 2px solid #3e000080;
   padding: 3px 1px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
@@ -389,9 +406,9 @@ a {
 
 .active-filter:hover {
   color: #fff;
-  background: #fe007e 50% 50% repeat-x;
+  background: #8f2a26 50% 50% repeat-x;
   font-weight: bold;
-  border: 2px solid #f5b1d5;
+  border: 2px solid #f0f0f0;
   padding: 3px 1px !important;
   font-size: smaller !important;
   line-height: 1.42857143;
