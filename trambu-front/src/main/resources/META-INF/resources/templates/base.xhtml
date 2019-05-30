@@ -44,15 +44,13 @@
     <meta name="DISTRIBUTION" content="GLOBAL"/>
     <meta http-equiv="PRAGMA" content="NO-CACHE"/>
     <meta http-equiv="Expires" content="604800"/>
-    <link rel="shortcut icon" type="image/x-icon" href="#{request.contextPath}/images/favicon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png"/>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
 
-    <h:outputStylesheet name="/css/trambu.css"/>
-
-
+    <h:outputStylesheet name="#{themeController.theme}"/>
 
     <script type="text/javascript">
       //<![CDATA[
@@ -69,7 +67,7 @@
 
         <div class="header">
             <div class="container">
-                <img src="#{request.contextPath}/images/TraMBU_logo.png" class="logo" alt="TraMBU Logo"/>
+                <img src="/images/TraMBU_logo.png" class="logo" alt="TraMBU Logo"/>
                 <h2>TraMBU
                     <span class="divider">|</span> <small>Your vehicle to easier task and time management</small>
                 </h2>
